@@ -25,7 +25,7 @@ echo Folder Unlocked successfully
 goto End
 :FAIL
 echo Invalid password
-goto end
+goto UNLOCK
 :MDPrivate
 md Private
 echo Private created successfully
